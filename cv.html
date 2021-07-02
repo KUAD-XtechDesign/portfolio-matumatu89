@@ -4,36 +4,40 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>トップページ</title>
+  <!-- トップページとはリンクが変わるので注意 -->
+  <link rel="stylesheet" href="../css/style.css">
+  <title>経歴</title>
 </head>
-<body>
+<body class="contents_page">
   
   <header>
     <div class="inner">
       <p id="header_logo">
-        <a href="./index.html"><img src="./images/logo.svg" alt=""></a>
+        <a href="../index.html"><img src="../images/logo.svg" alt=""></a>
       </p>
       <ul id="global_menu">
-        <li><a href="./cv.html">cv</a></li>
-        <li><a href="./works/index.html">works</a></li>
-        <li><a href="./reports/index.html">report</a></li>
+        <!-- トップページとはリンクが変わるので注意 -->
+        <li><a href="../cv.html">cv</a></li>
+        <li><a href="../works/index.html">works</a></li>
+        <li class="current"><a href="./index.html">report</a></li>
       </ul>
     </div>
   </header>
 
   <section>
     <!-- 空の要素だけどcssで背景を設定している -->
-    <div class="top_eye_catch">
-      
+    <div class="report_eye_catch">
+      Profile
     </div>
-    <div class="cv">
+    <div class="portfolio">
       <h2>経歴</h2>
-    
-      <u>
-        <li><a href 川越小学校卒業 </li>
-        <li><a 京都芸術高校卒業 </li>
-    </ul>
+      
+          <li>小学校卒業</li>
+          <li>中学校卒後</li>
+     
+        <li><a href="./report01.html"><img src="./images/thumb01.png" alt="サムネイル"></a></li>
+        <li><a href="#"><img src="./images/thumb02.png" alt="サムネイル"></a></li>
+      </ul>
     </div>
   </section>
 
