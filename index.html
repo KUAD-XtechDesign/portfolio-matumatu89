@@ -4,33 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>トップページ</title>
+  <!-- トップページとはリンクが変わるので注意 -->
+  <link rel="stylesheet" href="../css/style.css">
+  <title>レポート一覧ページ</title>
 </head>
-<body>
+<body class="contents_page">
   
   <header>
     <div class="inner">
       <p id="header_logo">
-        <a href="./index.html"><img src="./images/logo.svg" alt=""></a>
+        <a href="../index.html"><img src="../images/logo.svg" alt=""></a>
       </p>
       <ul id="global_menu">
-        <li><a href="./cv.html">cv</a></li>
-        <li><a href="./works/index.html">works</a></li>
-        <li><a href="./reports/index.html">report</a></li>
+        <!-- トップページとはリンクが変わるので注意 -->
+        <li><a href="../cv.html">cv</a></li>
+        <li><a href="../works/index.html">works</a></li>
+        <li class="current"><a href="./index.html">report</a></li>
       </ul>
     </div>
   </header>
 
   <section>
     <!-- 空の要素だけどcssで背景を設定している -->
-    <div class="top_eye_catch">
-      サイトの名前など
+    <div class="report_eye_catch">
+      report
     </div>
     <div class="contents">
-      <h2>更新履歴</h2>
-      <ul>
-        <li><a href="./reports/report01.html">レポートを追加しました</a></li>
+      <h2>経歴</h2>
+      <ul class="thumb_list">
+        <li>小学校卒業</li>
+        <li> 中学校卒業</li>
       </ul>
     </div>
   </section>
