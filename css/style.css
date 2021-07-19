@@ -124,7 +124,7 @@ footer {
   position: relative;
 }
 
-#global_menu li.current::after {
+#global_menu li.current::before {
   content: "";
   bottom: 2px;
   position: absolute;
