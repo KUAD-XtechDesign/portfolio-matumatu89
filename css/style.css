@@ -202,6 +202,17 @@ footer {
   color: #fff;
   font-weight: bold;
 }
+.top_cv {
+  height: 500px;
+  background-image: url(../images/aaaa.JPEG);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
 /*======================================================
 report
 ======================================================*/
