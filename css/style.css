@@ -133,14 +133,14 @@ footer {
   background-color: #ccc;
 }
 .report_eye_catch {
-  height: 300px;
-  background-image: url(../images/aiueo.jpeg);
+  height: 500px;
+  background-image: url(../images/report.png);
   background-size: cover;
   background-position: center center;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
@@ -189,8 +189,8 @@ footer {
   font-weight: bold;
 }
 .cv {
-  height: 550px;
-  background-image: url(../images/aaaa.JPEG);
+  height: 300px;
+  background-image: url(../images/aiueo.jpeg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -199,6 +199,18 @@ footer {
   justify-content: center;
   color: #fff;
   font-weight: bold;
+}
+  .works {
+    height: 350px;
+    background-image: url(../images/aaaa.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
 /*======================================================
 report
 ======================================================*/
