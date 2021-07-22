@@ -132,20 +132,6 @@ footer {
   height: 10px;
   background-color: #ccc;
 }
-
-.top_eye_catch {
-  height: 500px;
-  background-image: url(../images/top.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-weight: bold;
-}
-
 .report_eye_catch {
   height: 300px;
   background-image: url(../images/report.png);
@@ -203,7 +189,7 @@ footer {
   font-weight: bold;
 }
 .cv {
-  height: 500px;
+  height: 550px;
   background-image: url(../images/aaaa.JPEG);
   background-size: cover;
   background-position: center center;
